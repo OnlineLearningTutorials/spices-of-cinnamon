@@ -1,0 +1,8 @@
+{
+    "description": "Add files and folders to archive with PeaZip",
+    "uuid": "peazip-add-to-archive@xszabo3",
+    "name": "Add to archive action for PeaZip(Flatpak)",
+    "author": "xszabo3",
+    "version": "1.4",
+    "last-edited": 1724376176
+}

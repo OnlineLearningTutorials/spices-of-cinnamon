@@ -1,0 +1,8 @@
+{
+    "description": "Check a file's hash on VirusTotal",
+    "uuid": "check-with-virustotal@stilktf",
+    "name": "Check with VirusTotal",
+    "author": "stilktf",
+    "version": "1.0",
+    "last-edited": 1721779240
+}

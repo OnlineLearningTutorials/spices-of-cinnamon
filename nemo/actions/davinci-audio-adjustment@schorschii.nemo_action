@@ -1,0 +1,37 @@
+[Nemo Action]
+
+Name=DaVinci audio adjustment
+Name[ca]=Ajustament d'àudio per DaVinci
+Name[cs]=Úprava zvuku DaVinci
+Name[de]=DaVinci Audioanpassung
+Name[es]=Ajuste de audio DaVinci
+Name[fi]=DaVinci äänen säätö
+Name[fr]=Réglage audio pour DaVinci
+Name[hr]=DaVinci audio prilagodbe
+Name[hu]=DaVinci hangbeállítás
+Name[it]=Regolazione audio DaVinci
+Name[nl]=DaVinci-audioaanpassing
+Name[pt_BR]=Ajuste de áudio DaVinci
+Name[zh_CN]=Davinci音频调整
+Comment=Adjusts the audio track for use in DaVinci Resolve Studio
+Comment[ca]=Ajusta la pista d'àudio pel seu ús a DaVinci Resolve Studio
+Comment[cs]=Upraví zvukovou stopu pro použití v aplikaci DaVinci Resolve Studio
+Comment[de]=Passt die Audiospur für die Verwendung in DaVinci Resolve Studio an
+Comment[es]=Ajuste la pista de audio para su uso en DaVinci Resolve Studio
+Comment[fi]=Säätää ääniraidan käytettäväksi DaVinci Resolve Studiossa
+Comment[fr]=Régler la piste audio pour DaVinci Resolve Studio
+Comment[hr]=Prilagodi audio zapis za korištenje u DaVinci Resolve Studio
+Comment[hu]=Hangsáv beállítása a DaVinci Resolve Studioban való használatra
+Comment[it]=Regola la traccia audio per l'utilizzo in DaVinci Resolve Studio
+Comment[nl]=Past het audiokanaal aan voor gebruik in DaVinci Resolve Studio
+Comment[pt_BR]=Ajusta a faixa de áudio para uso no DaVinci Resolve Studio
+Comment[zh_CN]=调整音轨以在DaVinci Resolve Studio中使用
+Icon-Name=audio-speakers-symbolic
+
+Quote=double
+Exec=<davinci-audio-adjustment@schorschii/davinci-audio.sh %F>
+
+Mimetypes=video/*;
+Selection=notnone
+
+Dependencies=ffmpeg;zenity

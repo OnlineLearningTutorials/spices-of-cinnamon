@@ -1,0 +1,8 @@
+{
+    "description": "Quickly recognize text in images of PDF files via OCR",
+    "uuid": "pdf-ocr@schorschii",
+    "name": "PDF OCR",
+    "author": "schorschii",
+    "version": "1.1",
+    "last-edited": 1721779240
+}

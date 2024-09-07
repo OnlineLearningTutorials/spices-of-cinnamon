@@ -1,0 +1,18 @@
+[Nemo Action]
+Active=true
+Name=Open in IntelliJ IDEA
+Name[ca]=Obre amb IntelliJ IDEA
+Name[es]=Abrir en IntelliJ IDEA
+Name[fi]=Avaa IntelliJ IDEA
+Name[fr]=Ouvrir dans IntelliJ IDEA
+Name[hu]=Megnyitás az IntelliJ IDEA-ban
+Name[it]=Apri in IntelliJ IDEA
+Name[nl]=Open in IntelliJ IDEA
+Name[pt_BR]=Abrir no IntelliJ IDEA
+Name[zh_CN]=在IntelliJ IDEA中打开
+Comment=Open IntelliJ IDEA in the current directory
+Exec=idea %P
+Conditions=exec <open-in-intellij-idea@el-amine-404/examine.sh "%P">;
+Icon-Name=idea
+Selection=None
+Extensions=any;

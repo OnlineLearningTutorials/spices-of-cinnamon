@@ -1,0 +1,24 @@
+[Nemo Action]
+Name=Restart Cinnamon
+Name[ca]=Reinicia Cinnamon
+Name[cs]=Restartovat prostředí Cinnamon
+Name[da]=Genstart Cinnamon
+Name[de]=Cinnamon neu starten
+Name[es]=Reiniciar Cinnamon
+Name[fi]=Käynnistä Cinnamon uudelleen
+Name[fr]=Redémarrer Cinnamon
+Name[hr]=Ponovno pokreni Cinnamon
+Name[hu]=Indítsa újra a Cinnamon-t
+Name[it]=Riavvia Cinnamon
+Name[nl]=Cinnamon herstarten
+Name[pt]=Reiniciar Cinnamon
+Name[pt_BR]=Reiniciar Cinnamon
+Name[ru]=Перезапустить Cinnamon
+Name[sv]=Starta om Cinnamon
+Name[tr]=Cinnamon'u yeniden başlat
+Name[zh_CN]=重新启动Cinnamon
+Exec=cinnamon -r
+Icon-Name=view-refresh-symbolic
+Selection=None
+Extensions=any;
+Conditions=dbus org.Cinnamon;desktop;

@@ -1,0 +1,36 @@
+[Nemo Action]
+
+Name=Convert to .eml
+Name[ca]=Converteix a .eml
+Name[cs]=Převést na .eml
+Name[de]=In .eml konvertieren
+Name[es]=Convertir a .eml
+Name[fi]=Muunna muotoon .eml
+Name[fr]=Convertir en .eml
+Name[hr]=Pretvori u .eml
+Name[hu]=Konvertálja .eml formátumba
+Name[it]=Converti in .eml
+Name[nl]=Converteer naar .eml
+Name[pt_BR]=Converter para .eml
+Name[zh_CN]=转换为.eml文件
+Comment=Convert .msg file to .eml
+Comment[ca]=Converteix fitxer .msg a .eml
+Comment[cs]=Převést soubor .msg na .eml
+Comment[de]=Konvertiert .msg-Dateien in .eml
+Comment[es]=Convertir un archivo .msg en .eml
+Comment[fi]=Muunna .msg muotoon .eml
+Comment[fr]=Conversion .msg vers .eml
+Comment[hr]=Pretvori .msg datoteku u .eml
+Comment[hu]=Konvertálja az .msg fájlt .eml formátumba
+Comment[it]=Converti il file .msg in .eml
+Comment[nl]=Converteer .msg-bestand naar .eml
+Comment[pt_BR]=Converter arquivo .msg para .eml
+Comment[zh_CN]=将.msg文件转换为.eml文件
+Icon-Name=gtk-convert
+
+Exec=bash -c 'cd %P && msgconvert %F'
+Quote=double
+
+Selection=NotNone
+Extensions=msg;
+Dependencies=msgconvert

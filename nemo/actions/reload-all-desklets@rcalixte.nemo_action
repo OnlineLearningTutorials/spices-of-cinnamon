@@ -1,0 +1,23 @@
+[Nemo Action]
+Name=Reload All Desklets
+Name[ca]=Recarrega totes les miniaplicacions d'escriptori
+Name[cs]=Opětovně načíst všechny desklety
+Name[da]=Genindlæs alle skrivebordsprogrammer
+Name[es]=Recargar todos los Desklets
+Name[fi]=Virkistä kaikki pöytäsovelmat
+Name[fr]=Recharger toutes les Desklets
+Name[hr]=Ponovno učitaj sve dodatke
+Name[hu]=Az összes asztalkalmazás újratöltése
+Name[it]=Ricarica tutti i desklet
+Name[nl]=Alle desklets herladen
+Name[pt]=Recarregar todos os desklets
+Name[pt_BR]=Recarregar Todos os Desklets
+Name[ru]=Перезапустить Все Десклеты
+Name[tr]=Tüm Masaüstü Eklentilerini Yeniden Yükle
+Name[zh_CN]=重新加载所有桌面小程序
+Exec=<reload-all-desklets@rcalixte/reload-all-desklets@rcalixte.py>
+Icon-Name=mail-send-receive-symbolic
+Selection=None
+Extensions=any;
+Conditions=dbus org.Cinnamon;desktop;
+Dependencies=cinnamon-dbus-command;

@@ -1,0 +1,8 @@
+{
+    "description": "Convert files with PeaZip",
+    "uuid": "peazip-flatpak-convert@xszabo3",
+    "name": "Convert action for PeaZip(Flatpak)",
+    "author": "xszabo3",
+    "version": "1.4",
+    "last-edited": 1724376176
+}

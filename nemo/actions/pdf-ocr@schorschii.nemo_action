@@ -1,0 +1,37 @@
+[Nemo Action]
+
+Name=OCR PDF(s)
+Name[ca]=OCR PDF(s)
+Name[cs]=OCR PDF
+Name[de]=OCR PDF(s)
+Name[es]=OCR PDF(s)
+Name[fi]=OCR-PDF
+Name[fr]=OCR PDF(s)
+Name[hr]=OCR PDF
+Name[hu]=OCR PDF(s)
+Name[it]=Esegui OCR su PDF
+Name[nl]=OCR PDF-bestand(en)
+Name[pt_BR]=OCR no(s) PDF(s)
+Name[sv]=OCR PDF(er)
+Name[zh_CN]=OCR识别PDF文件
+Comment=Execute OCR on the selected PDF files to add text information on embedded images, saves result as '.ocr.pdf'
+Comment[ca]=Executa OCR als fitxers PDF seleccionats per afegir informació sobre el text en imatges incrustades. Guarda el resultat com a '.ocr.pdf'
+Comment[cs]=Provede OCR na vybraných souborech PDF a přidá textové informace k vloženým obrázkům, výsledek uloží jako '.ocr.pdf'
+Comment[es]=Ejecute OCR en los archivos PDF seleccionados para añadir información de texto en las imágenes incrustadas, guarda el resultado como '.ocr.pdf'
+Comment[fi]=Tekee tekstin tunnistuksen valituissa PDF-tiedostossa ja tallentaa tuloksen tiedostopäätteellä '.ocr.pdf'
+Comment[fr]=Exécute une reconnaissant optique sur les fichiers PDF pour ajouter les informations textuelles aux images, sauvegarde les resultats sous ".ocr.pdf"
+Comment[hr]=Izvršava OCR na odabranim PDF datotekama i dodaje tekstualne informacije na ugrađene slike, sprema rezultat kao '.ocr.pdf'
+Comment[hu]=Futtassa az OCR-t a kiválasztott PDF-fájlokon, hogy szöveges információkat adjon a beágyazott képekhez, az eredményt ".ocr.pdf"-ként menti.
+Comment[it]=Esegue l'OCR sui file PDF selezionati per aggiungere informazioni testuali sulle immagini incorporate e salva il risultato come '.ocr.pdf'
+Comment[nl]=Voer OCR uit op de geselecteerde PDF-bestanden om tekstinformatie toe te voegen aan ingesloten afbeeldingen, slaat het resultaat op als '.ocr.pdf'
+Comment[pt_BR]=Execute OCR nos arquivos PDF selecionados para adicionar informações de texto em imagens incorporadas, salva o resultado como '.ocr.pdf
+Comment[sv]=Kör OCR på valda PDF-filer för att lägga till textinformation från inbäddade bilder och sparar resultatet som ".ocr.pdf".
+Comment[zh_CN]=对选定的PDF文件执行OCR识别以在嵌入图像上添加文本信息，将结果保存为“.ocr.pdf”文件
+Icon-Name=add-files-to-archive
+
+Exec=<pdf-ocr@schorschii/ocr-pdf.sh %F>
+
+Mimetypes=application/pdf;
+Selection=notnone
+
+Dependencies=ocrmypdf;zenity

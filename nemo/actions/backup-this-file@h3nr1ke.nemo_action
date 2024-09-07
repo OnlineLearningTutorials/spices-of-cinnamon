@@ -1,0 +1,21 @@
+[Nemo Action]
+Name=Backup this file
+Name[ca]=Crea una còpia de seguretat d'aquest fitxer
+Name[el]=Backup του αρχείου
+Name[es]=Crear una copia de seguridad de este archivo
+Name[eu]=Egin fitxategi honen babeskopia
+Name[fi]=Varmista tämä tiedosto
+Name[fr]=Sauvegarder ce fichier
+Name[hu]=Biztonsági mentés erről a fájlról
+Name[it]=Effettua il backup di questo file
+Name[nl]=Maak een back-up van dit bestand
+Name[pt_BR]=Criar um backup deste arquivo
+Name[zh_CN]=备份此文件
+Comment=Backup the selected file by creating a copy and appending the suffix .bkp
+Exec=<backup-this-file@h3nr1ke/backup-this-file.sh "%F">
+Conditions=exec <backup-this-file@h3nr1ke/check.sh "%F">;
+Icon-Name=edit-copy-symbolic
+Selection=notnone
+Extensions=any;
+Dependencies=gettext;bash;
+Separator=" "
